@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(228, 221, 236);
+    font-size: medium;
+    background-size: 50%;
+}
+.titulo{
+    color: rgb(0, 209, 10);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+.menu{
+    list-style:none ;
+    padding:0;
+    background:blue;
+    width: 90%;
+    max-width:1000px;
+    margin:auto;
+}
+.menu li a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color:white;
+    padding:25px;
+    display: block;
+    
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: crimson;
+}
+.menu li ul{
+    
+    display:none;
+    position: absolute;
+    min-width: 100px;
+    color:darkcyan;
+    background: darkmagenta;
+}
+.menu li:hover > ul{
+    display:block;
+}
+img{
+    height: 240px;
+    width: 250px;
+    float: left;
+    transition: all 3s;
+    background: crimson;
+}
+.carrusel figure img:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+
+

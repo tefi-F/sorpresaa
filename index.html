@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head> 
+        <link rel="stylesheet" href="estilo.css" />
+        <title>DETALLE ANDERSON</title>
+
+    </head>
+    <body background="im/sd.gif">
+        <h1 class="titulo">
+            TE AMO MUCHO ANDERSON
+        </h1>
+    <h1>
+        <marquee>
+            FELIZ PRIMER MES AMOR #14
+
+        </marquee>
+    </h1>
+    
+    <ul class="menu">
+        <li><a href="#">INICIO</a>
+            <ul>
+                <li><a target="_blank" href="Primera conversacion.html">Mundos compartidos</a></li>
+                <li><a target="_blank" href="Primera salida.html">Primera salida</a></li>
+                <li><a target="_blank"href="Conociendono.html">Conociendonos</a></li>
+            </ul>
+        </li>
+        <li><a href="#">AMOR</a>
+            <ul>
+                <li><a target="_blank"href="momentos.html">Momentos</a></li>
+                <li><a target="_blank"href="videos.html">Videos</a></li>
+            </ul>
+        </li>
+        
+        
+    </ul>
+    <div class="content-all">
+        <div class="carrusel">
+        <figure><img src="im/61c1f72d05aa0037837f11e91d8ec5ff.jpg"/></figure>
+        <figure><img src="im/2.png"/></figure>
+        <figure><img src="im/4.jpg"/></figure>
+        <figure><img src="im/images (6).jpg"/></figure>
+        <figure><img src="im/5b2c795b253480df4408c6fc9aa002c0820df1c0_00.jpg"/></figure>
+        <figure><img src="im/fondo3.jpg"/></figure>
+        <figure><img src="im/amor-en-el-espacio-fiestas-san-valentin-10528953.jpg"/></figure>
+        <figure><img src="im/8b76aeea458858b3aa048d5f9db6ccd5.jpg"/></figure>
+        <figure><img src="im/images (7).jpg"/></figure>
+        <figure><img src="im/3519845_full-fondos-de-pantalla-dibujos-tumblr-chico-guapo-noah-centineo-amor-fotos-tumblr-fotos-preciosas-dibujos-amor.jpg"/></figure>
+        </div>
+    </div>
+    <audio src="musica/reik.mp3" controls></audio>
+    </body>
+    </html>
