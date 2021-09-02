@@ -1,0 +1,120 @@
+<html>
+    <head>
+       <style>
+           
+           h1{
+               text-align: center;
+               font-size:80px;
+               color:purple;
+               font-weight: bolder;
+               margin: top 20px;
+           }
+           h2{
+               color:rgb(24, 63, 194);
+               font-size: x-large;
+               text-align: center;
+               text-align: justify;
+               padding: 10px;
+               border: 10px;
+           }
+            img{
+                height: 490px;
+                width: 240px;
+                
+            }
+            body{
+                background-size: 100%;
+            }
+            .content-all{
+                width: 220px;
+                perspective: 1000px;
+                position: relative;
+                margin: auto;
+                margin-top: 50px;
+            }
+            .content-carrousel{
+                width: 100%;
+                position: absolute;
+                animation: rotar 10s infinite linear;
+                transform-style:preserve-3d ;
+            }
+            .content-carrousel:hover{
+            animation-play-state: paused;
+            cursor: pointer;
+            }
+            .content-carrousel figure{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                height: 100px;
+                box-shadow: 0px 0px 20px 0px black;
+            }
+            .content-carrousel figure:hover{
+                box-shadow: 0px 0px 0px 0px black;
+                transition: all 300ms;
+            }
+            .content-carrousel figure:nth-child(1){transform: rotateY(0deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(8){transform: rotateY(51deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(7){transform: rotateY(102deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(6){transform: rotateY(154deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(5){transform: rotateY(206deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(4){transform: rotateY(259deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(3){transform: rotateY(311deg)
+            translateZ(300px);}
+            .content-carrousel figure:nth-child(2){transform: rotateY(360deg)
+            translateZ(300px);}
+            .content-carrousel img{
+                width: 100%;
+                transition: all 300ms;
+
+            }
+            .content-carrousel img:hover{
+               transform: scale(1.5);
+               transition: all 300ms;
+           }
+            @keyframes rotar{
+                from{
+                    transform: rotateY(0deg);
+                }to{
+                    transform: rotateY(360deg);
+                }
+            }
+            footer{
+                text-align: bottom;
+            }
+
+
+       </style>
+    </head>
+    <body background="im/fondoanime.gif">
+        <h1 >MUNDO ANIME </h1>
+        <audio src="musica/anime.mp3" controls></audio> 
+        <h2>Bueno Anderson son muchas cosas de las que compartimos y pues enserio es super bonito que tambien te gusten algunos
+            animes asi como amo
+        </h2>
+        <div class="content-all">
+          <div class=content-carrousel>
+              <figure><img src="im/3519845_full-fondos-de-pantalla-dibujos-tumblr-chico-guapo-noah-centineo-amor-fotos-tumblr-fotos-preciosas-dibujos-amor.jpg" ></figure>
+              <figure><img src="im/fondo1.jpg" ></figure>
+              <figure><img src="im/ANIME4.jpg" ></figure>
+              <figure><img src="im/fondo3..jpg" ></figure>
+              <figure><img src="im/fondo4.jpg" ></figure>
+              <figure><img src="im/fondo5.jpg" ></figure>
+              <figure><img src="im/fondo6.1.jpg" ></figure>
+              <figure><img src="im/fondo6.jpg" ></figure>
+            </div>
+        </div>
+        <img src="im/anime.jpg " align="right"/>
+        
+        <img src="im/anime2.jpg" align="left"/>
+
+    </body>
+   
+    
+</html>
